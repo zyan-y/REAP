@@ -8,10 +8,10 @@ Enzyme reprogramming underpins new catalysts and therapeutics but is hard to sca
 
 ## What's in this repository
 
-* **RankReg loss** : reference implementation of the RankReg hybrid loss.
-* **PLM-RankReg model** : training and inference code for the rank-guided predictor.
-* **REAP loop** : scripts/utilities to run model-guided design, batch prediction, and interface with automated experiments in a closed loop.
-* **Experimental data** : raw datasets used to train/evaluate the models and to drive the in-loop updates.
+* **RankReg loss**: reference implementation of the RankReg hybrid loss.
+* **PLM-RankReg model**: training and inference code for the rank-guided predictor.
+* **REAP loop**: scripts/utilities to run model-guided design, batch prediction, and interface with automated experiments in a closed loop.
+* **Experimental data**: raw datasets used to train/evaluate the models and to drive the in-loop updates.
 
 ## Getting started
 
