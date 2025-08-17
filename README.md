@@ -1,6 +1,6 @@
 # REAP
-This repository contains the code of REAP (Rank-guided Exploration for Autonomous enzyme reProgramming), a closed-loop platform that integrates machine learning–guided design with robotic experimentation.
 
+This repository contains the code of REAP (Rank-guided Exploration for Autonomous enzyme reProgramming), a closed-loop platform that integrates machine learning–guided design with robotic experimentation.
 
 ## Overview
 
@@ -18,7 +18,7 @@ Enzyme reprogramming underpins new catalysts and therapeutics but is hard to sca
 1. **Clone & install**
 
    ```
-   git clone https://github.com/<your-org>/REAP.git
+   git clone https://github.com/zyan-y/REAP.git
    cd REAP
    pip install -r requirements.txt
    ```
@@ -47,7 +47,7 @@ This repository may include or depend on third-party software distributed under 
 
 ## Patents
 
-A **patent application** covering aspects of REAP has been filed. Use of this code is permitted only under the terms of the AGPL-3.0 license; no additional patent rights are granted beyond those provided by that license. 
+A **patent application** covering aspects of REAP has been filed. Use of this code is permitted only under the terms of the AGPL-3.0 license; no additional patent rights are granted beyond those provided by that license.
 
 ## Citation
 
