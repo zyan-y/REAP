@@ -5,6 +5,7 @@ import torch.nn.init as init
 import torch.nn.functional as F
 
 
+# Prediction Head of PLM_RankReg 
 class PLM_RankReg(nn.Module):
     def __init__(self, input_dim, output_dim=1, input_hidden_dim=256, hidden_dim=128,
                  model_type='mlp', num_heads=4, dropout=0):

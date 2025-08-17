@@ -15,7 +15,7 @@ def main(args):
     cv_splits = ['fold_random_5']
     model_types = ['mlp', 'cnn', 'light_attention']
 
-    cv_folder = './DMS_enzyme/'
+    cv_folder = ''
     test_indices = [0, 1, 2, 3, 4]
     os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
     seed = args.seed
@@ -62,9 +62,8 @@ def main(args):
                                 os.makedirs(checkpoint_dir, exist_ok=True)
                                 save_path = os.path.join(checkpoint_dir, f'{name}_grid_{cv_split}_{test_index}_{model_type}_{alpha:.1f}_{margin}_seed{seed}.pth')
 
-                            best_spearman, best_mse, _ = train_model_rankloss(X_train, y_train, X_test, y_test, epochs, seed, save_path,
+                            best_spearman, best_mse, _ = train_plm_rankreg(X_train, y_train, X_test, y_test, epochs, seed, save_path,
                                                         model_type, alpha, margin, patience)
-                            # best_spearman, best_mse, _ = train_evolvepro(X_train, y_train, X_test, y_test)
 
                             results_dict["spearman"].append(float(best_spearman))
                             results_dict["mse"].append(float(best_mse))

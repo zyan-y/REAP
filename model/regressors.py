@@ -141,7 +141,9 @@ def train_model_baseline(X_train, y_train, X_test, y_test, epochs, seed, save_pa
     return best_metrics_in_epochs[0], best_metrics_in_epochs[1], best_model
 
 
-
+# Kaiyi Jiang et al. ,Rapid in silico directed evolution by a protein language model with EVOLVEpro.
+# Science387,eadr6006(2025).DOI:10.1126/science.adr6006
+# https://github.com/mat10d/EvolvePro
 def train_evolvepro(X_train, y_train, X_test, y_test):
     model = RandomForestRegressor(n_estimators=100, criterion='friedman_mse', max_depth=None, min_samples_split=2,
                                     min_samples_leaf=1, min_weight_fraction_leaf=0.0, max_features=1.0,
