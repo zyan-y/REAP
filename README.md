@@ -49,7 +49,7 @@ REAP/
 
 ## Data availability
 
-This repository provides the code and expected data formats. We will release all source data associated with the paper under `./data/source` after the manuscript is accepted.
+This repository provides the code and expected data formats. The source data underlying the results reported in the paper, together with the supplementary data and further details, are publicly available from the [published article webpage](https://doi.org/10.1038/s41467-026-76264-2). Please refer to the  **Data availability** ,  **Supplementary information** , and **Source data** sections of the article for access and download.
 
 ## Installation
 
@@ -292,4 +292,19 @@ This project is licensed under AGPL-3.0-only. The full license text is provided 
 
 ## Citation
 
-If you use REAP or RankReg in academic work, please cite the associated paper when it becomes available. A BibTeX entry will be added after publication.
+If you use REAP or RankReg in your research, please cite the following paper:
+
+> Xu, J., Zheng, Y., Sundarraj, R. *et al.* Rank-guided learning accelerates automated enzyme engineering. *Nature Communications* (2026). [https://doi.org/10.1038/s41467-026-76264-2](https://doi.org/10.1038/s41467-026-76264-2)
+
+```bibtex
+@article{xu2026rank,
+  author  = {Xu, Jingyi and Zheng, Yan and Sundarraj, Rajamanikandan and Woycechowsky, Kenneth and Yuchi, Zhiguang and Yuan, Yingjin},
+  title   = {Rank-guided learning accelerates automated enzyme engineering},
+  journal = {Nature Communications},
+  year    = {2026},
+  doi     = {10.1038/s41467-026-76264-2},
+  url     = {https://doi.org/10.1038/s41467-026-76264-2}
+}
+```
+
+The source data and further details are available in the published article.
